@@ -9,8 +9,9 @@ body {
   @apply bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-200;
 
   // Fullscreen background image example
-  //background-image: url('../../images/background.jpg');
-  //@apply bg-center bg-cover bg-fixed;
+ background-image: url('../../images/background.png');
+ backdrop-filter: brightness(0.9);
+@apply bg-center bg-cover bg-fixed;
 }
 
 a, a:link, a:visited {
@@ -33,7 +34,7 @@ main {
 #logo {
   @apply m-auto;
   @apply w-full;
-  @apply max-w-md;
+  @apply max-w-sm;
 }
 
 span.emoji {
